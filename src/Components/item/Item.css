@@ -1,0 +1,23 @@
+.item {
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  border: 1px solid gainsboro;
+  border-radius: 7px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-button {
+  border: none;
+  background-color: rgb(228, 17, 17);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.item-button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,50 @@
+form {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+
+.form-label {
+  margin-right: 10px;
+}
+
+.form-button {
+  border: none;
+  background-color: forestgreen;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+  transition: all 0.5s linear;
+}
+
+.form-button-blue {
+  border: none;
+  background-color: royalblue;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 2px;
+  margin-left: 10px;
+  transition: all 0.5s linear;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.form-button:first .form-button:hover {
+  cursor: pointer;
+}
+
+.form-input {
+  padding: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
